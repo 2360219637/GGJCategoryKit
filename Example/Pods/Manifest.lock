@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GGJCategoryKit (1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GGJCategoryKit (from `../`)
+
+EXTERNAL SOURCES:
+  GGJCategoryKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GGJCategoryKit: 0d79a5e2d0b2aaae8d6e7ddd135f509c13a817b2
+
+PODFILE CHECKSUM: 8293d9c26e98999bafbcc6371d08fbc5e2d33ccb
+
+COCOAPODS: 1.4.0

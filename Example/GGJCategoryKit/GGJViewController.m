@@ -7,7 +7,7 @@
 //
 
 #import "GGJViewController.h"
-
+#import "NSString+GGJCategory.h"
 @interface GGJViewController ()
 
 @end

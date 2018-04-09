@@ -1,41 +1,20 @@
-#
-# Be sure to run `pod lib lint GGJCategoryKit.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = 'GGJCategoryKit'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of GGJCategoryKit.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.version          = '1'
+  s.summary          = '这是一个分类组件'
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+TODO: 组件化中的分类组件
                        DESC
-
-  s.homepage         = 'https://github.com/chenzhichao/GGJCategoryKit'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/2360219637/GGJCategoryKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'chenzhichao' => 'chenzc@gegejia.com' }
-  s.source           = { :git => 'https://github.com/chenzhichao/GGJCategoryKit.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.source           = { :git => 'https://github.com/2360219637/GGJCategoryKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
-
   s.source_files = 'GGJCategoryKit/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'GGJCategoryKit' => ['GGJCategoryKit/Assets/*.png']
   # }
-
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
