@@ -7,23 +7,22 @@
 //
 
 #import "GGJViewController.h"
-#import "NSString+GGJCategory.h"
+#import "GGJTestView.h"
 @interface GGJViewController ()
 
 @end
 
 @implementation GGJViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+	
+    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
+    NSString *path = [bundle pathForResource:@"22" ofType:@"png"];
+    
+    
+    GGJTestView *testView = [[GGJTestView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    testView.backgroundColor = [UIColor cyanColor];
+    [self.view addSubview:testView];
 }
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 @end

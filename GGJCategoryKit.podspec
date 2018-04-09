@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GGJCategoryKit'
-  s.version          = '4'
+  s.version          = '5'
   s.summary          = '这是一个分类组件'
   s.description      = <<-DESC
 TODO: 组件化中的分类组件
@@ -12,9 +12,10 @@ TODO: 组件化中的分类组件
   s.ios.deployment_target = '8.0'
   s.source_files = 'GGJCategoryKit/Classes/**/*'
 
-  # s.resource_bundles = {
-  #   'GGJCategoryKit' => ['GGJCategoryKit/Assets/*.png']
-  # }
+  s.resource_bundles = {
+#'GGJCategoryKit' => ['GGJCategoryKit/Assets/*.png']
+    'GGJCategoryKit' => ['GGJCategoryKit/Assets/*.png']
+  }
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'

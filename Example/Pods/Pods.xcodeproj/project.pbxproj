@@ -9,37 +9,41 @@
 /* Begin PBXBuildFile section */
 		051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */; };
+		14B113252A3EFA16A8CAEFFF581689C9 /* GGJCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECCF4839E4E7AD905F0D0AA68E0A32B /* GGJCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */; };
-		226395ACFC051D19C0F090E09FB10BC7 /* NSString+GGJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 863AC920F3E035BE4D48195AC5EEB977 /* NSString+GGJCategory.m */; };
 		2414272504E12C64CB09656D042370F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		2F485B69F51E4F723A38410F31F08550 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */; };
-		3A4094B4BA4F93608EB95F1682EB7629 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
+		411829506AE710396EE897EFA69566D2 /* GGJCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78B99D222AF589DC8A9132487D59C58A /* GGJCategoryKit-dummy.m */; };
 		421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		42336E28C76A51529CE8C1EA37418672 /* GGJCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47AA488E9F30346E8C062F4FFCCD2235 /* GGJCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F59A3095A587A4B5A274FCB7F86EC52 /* Pods-GGJCategoryKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F5AB69F38EA30DD5D4F27F8BE68E041 /* Pods-GGJCategoryKit_Tests-dummy.m */; };
 		506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */; };
 		5562C4F673C0EE36C1C7953F640C4B1E /* Pods-GGJCategoryKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36C5FF353DBEA191FA73DCD0F10CF447 /* Pods-GGJCategoryKit_Example-dummy.m */; };
 		5DAF0C967DD0930B3001FE29BDEF6EC6 /* Pods-GGJCategoryKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 07F76AA635360718714866C6B942EEC3 /* Pods-GGJCategoryKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */; };
 		756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */; };
+		770C754A9398EA07EC1FBD6B2B90BFD1 /* GGJTestView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA95BD24EB088B6A62A3D4218250BCB5 /* GGJTestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7788B8AABC9F385D225CBBFF9755ECC7 /* GGJCategoryKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 508A8F3E8A348002ACDFEA4B169CE3D3 /* GGJCategoryKit.bundle */; };
+		7BD4DBAB58FBAFCE44D6CFA6EA053235 /* NSString+GGJCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 574D6685415DCBDEAB8B449F19714AEA /* NSString+GGJCategory.m */; };
 		7E9B14D5F8842A86CA86F2AF45230725 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */; };
 		841FF232C33C7D49C58CEFDBE7EEB92B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */; };
 		91D0138ACFAD733E4061F12E450C336C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		9673CF780F48C8E4EC2A331717B1F67C /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2EF4F13673D4306DCB1C7F52E6F8904 /* GGJTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74479846A8775E6F8C8696EB6023553A /* GGJTestView.m */; };
 		A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */; };
-		AB1F5CC8499228620FCF11DDE7FA1C00 /* GGJCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C244EA054EA53D0C1D3DEC8D26FE4A4C /* GGJCategoryKit-dummy.m */; };
 		B27DFD6025D94758785918F1D6F6C060 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A27810809BAD71E4022600B21251449F /* QuartzCore.framework */; };
 		B758FB09FE2C06C1B8E36A71A9D76D41 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B7CC29600575251CFBCFE4D997BCC0E4 /* NSString+GGJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A7175245436EA6AFE1C79E113D4DF70 /* NSString+GGJCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */; };
 		BFCE460CC33E8872B7156D4166340178 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3511933D9AC38567438F41A4419ECC5 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FFEB8FEC3A9EC14E5C7ECC70F226CB9E /* 1.png */; };
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		CC4131A350EB54BFD330E261628F45A3 /* NSString+GGJCategory.h in Headers */ = {isa = PBXBuildFile; fileRef = 69744306589253228CF785C0E338D9BB /* NSString+GGJCategory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D53D7D1B657BCF5846FA5D63B824152F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
 		E75D70EFB2E3B85365BC93BC53FF8F70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */; };
-		E78C2C0CEFC91B88EB05E1BEB5BBF614 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 236D7410A34E42EB194FFE06F48CFA0D /* ReplaceMe.m */; };
 		EF4E34331FDAC02BC6D82AC72CA8EBC5 /* Pods-GGJCategoryKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09D36AE441BA1BD4CB2F38EEACCA2BAD /* Pods-GGJCategoryKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F68F7E4FA677878057D5B8DE741FE2DB /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CD039701ECB4663948BD4BB6D00B56 /* ReplaceMe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +51,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 965930771C19289ADD6C6AEAC69B82A8;
+			remoteGlobalIDString = 48E377E5B14AEA6A580FF0510052E385;
 			remoteInfo = GGJCategoryKit;
 		};
 		551789BC24CCFAE71D85ECD84BFC5B9A /* PBXContainerItemProxy */ = {
@@ -57,25 +61,29 @@
 			remoteGlobalIDString = 34CD2E3428AB802BACA62286FF5074B1;
 			remoteInfo = FBSnapshotTestCase;
 		};
+		C09B6DDBFA369A5A687BBE10C5B4FCC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA3C3AC313DBFADF7A9DAFD8BDA7E131;
+			remoteInfo = "GGJCategoryKit-GGJCategoryKit";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		015525F2B7525F99412F045B680D8275 /* Pods_GGJCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GGJCategoryKit_Example.framework; path = "Pods-GGJCategoryKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		052258A488A96C35531FAC73C4F42924 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		07F76AA635360718714866C6B942EEC3 /* Pods-GGJCategoryKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGJCategoryKit_Example-umbrella.h"; sourceTree = "<group>"; };
 		09D36AE441BA1BD4CB2F38EEACCA2BAD /* Pods-GGJCategoryKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GGJCategoryKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		0B161931541BFE46DFEA2092EDDDA815 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		1082CCCD005762B80193A57D4AAC5DFD /* GGJCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GGJCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C6A4BE4B03BBFDB7B259EDEE57FAB99 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ECCF4839E4E7AD905F0D0AA68E0A32B /* GGJCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGJCategoryKit-umbrella.h"; sourceTree = "<group>"; };
 		11694139CAFEEB89C87310D5A314E6CC /* Pods-GGJCategoryKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGJCategoryKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		1374B79237CAC07693E99442FBED1F15 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		14DF16904FA4E9E4085AD6D467B2E9A0 /* Pods-GGJCategoryKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGJCategoryKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1CD9A3DE07EDFC5A76D23BEF2525B374 /* GGJCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGJCategoryKit-prefix.pch"; sourceTree = "<group>"; };
-		236D7410A34E42EB194FFE06F48CFA0D /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GGJCategoryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		288AEE62DA34AE4E13773B6B8E20CB22 /* GGJCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGJCategoryKit.xcconfig; sourceTree = "<group>"; };
 		2D03DC312C46904CA8186D5B59D0230B /* Pods-GGJCategoryKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGJCategoryKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		2D6803AD87EEBCAB80351DC90DEE8625 /* Pods_GGJCategoryKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGJCategoryKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EECE81A9AEC1ED1057A9C3C88DBCEBE /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		36C5FF353DBEA191FA73DCD0F10CF447 /* Pods-GGJCategoryKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGJCategoryKit_Example-dummy.m"; sourceTree = "<group>"; };
-		38505C4B9A8BCBE3D32B175EEFF41104 /* Pods_GGJCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GGJCategoryKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39577E2B806B8B2D019998DE60728F63 /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		3A8F339250A1C3C5C5C5364254007103 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3B5E22F9517F21D3A0251F88FCAB281E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
@@ -83,45 +91,53 @@
 		3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		3FD71E81ACCBBC181D125DCBAA020935 /* Pods-GGJCategoryKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGJCategoryKit_Example-frameworks.sh"; sourceTree = "<group>"; };
 		432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		467986DA90ED28BEC4B8541572E46ECC /* GGJCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GGJCategoryKit.framework; path = GGJCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4792533D7EE0F440EE722DA4999E845C /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
-		47AA488E9F30346E8C062F4FFCCD2235 /* GGJCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGJCategoryKit-umbrella.h"; sourceTree = "<group>"; };
 		500A2E4EEA90D75F9EF72908F636A6E2 /* Pods-GGJCategoryKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGJCategoryKit_Example.modulemap"; sourceTree = "<group>"; };
+		508A8F3E8A348002ACDFEA4B169CE3D3 /* GGJCategoryKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GGJCategoryKit.bundle; path = "GGJCategoryKit-GGJCategoryKit.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		56CB292AB71C9EABD6724113B6560FC6 /* GGJCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GGJCategoryKit.xcconfig; sourceTree = "<group>"; };
+		574D6685415DCBDEAB8B449F19714AEA /* NSString+GGJCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+GGJCategory.m"; sourceTree = "<group>"; };
+		57831EA67201A2E603FC715AA2231504 /* ResourceBundle-GGJCategoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GGJCategoryKit-Info.plist"; sourceTree = "<group>"; };
 		58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		5A7175245436EA6AFE1C79E113D4DF70 /* NSString+GGJCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+GGJCategory.h"; sourceTree = "<group>"; };
 		67E276593855381568F725E69496F29C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70C17C039F79A62F9D1B17C2E121C8B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		69744306589253228CF785C0E338D9BB /* NSString+GGJCategory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSString+GGJCategory.h"; sourceTree = "<group>"; };
 		70C52CC7EA4FF5FEE4C71B7EED888466 /* Pods-GGJCategoryKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGJCategoryKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		74479846A8775E6F8C8696EB6023553A /* GGJTestView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = GGJTestView.m; sourceTree = "<group>"; };
+		78B99D222AF589DC8A9132487D59C58A /* GGJCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGJCategoryKit-dummy.m"; sourceTree = "<group>"; };
 		7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		7E3DB4D092B985E76E227F7F313C6981 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
-		84BDF71C0B6F119E2803FBC615A42710 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		831F3F628856AAA09D2DE0CA071CA9B8 /* GGJCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GGJCategoryKit-prefix.pch"; sourceTree = "<group>"; };
 		85E250EF19C5B5671AEC10BEB508D087 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
-		85F6B3AD287C52BB8956167E9F60D94E /* GGJCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGJCategoryKit.modulemap; sourceTree = "<group>"; };
-		863AC920F3E035BE4D48195AC5EEB977 /* NSString+GGJCategory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSString+GGJCategory.m"; sourceTree = "<group>"; };
 		86D22A6C4FE6774E78A25FDE3C806141 /* Pods-GGJCategoryKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGJCategoryKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		881C0164EB72369E3B17AB505E45E977 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F42F22A80998D15C2F96B221C096233 /* Pods-GGJCategoryKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GGJCategoryKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8F5AB69F38EA30DD5D4F27F8BE68E041 /* Pods-GGJCategoryKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GGJCategoryKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		920A2F05A5F8985D147DB6B5FD290092 /* Pods_GGJCategoryKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GGJCategoryKit_Tests.framework; path = "Pods-GGJCategoryKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A11D5B54955E3381F067364E427B571A /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		A27810809BAD71E4022600B21251449F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		AA323C90663942983643D7A4D1F697C8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		AE717DB18A116C40C4BF94B0E054D9BA /* Pods-GGJCategoryKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGJCategoryKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		B1B173C29AC0DA7029D48327968AA36C /* GGJCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = GGJCategoryKit.podspec; sourceTree = "<group>"; };
-		B636386C36999949D10A55DAC240B6ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE7AF53052EC6560BA0AA1C77DF4EB8D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B9109B8B333B5A1A3E92EFC09EDC10AC /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		B9CEF7D6C5E08AB80E58DABC75D882BC /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		C244EA054EA53D0C1D3DEC8D26FE4A4C /* GGJCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GGJCategoryKit-dummy.m"; sourceTree = "<group>"; };
-		C29E2F7912170B896D9694D4E149D13E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C6CD039701ECB4663948BD4BB6D00B56 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = GGJCategoryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		C6E88A450A84E3957158B3B3459740AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C7EF0DACE956C832E96605F07165358C /* GGJCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GGJCategoryKit.modulemap; sourceTree = "<group>"; };
 		C9906BD800CAC6165483F91CA4944F69 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDB4316A3234C6DF7FEBA22E9FE8A1E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		D5019D992FA8F31AB74DE44818EF6534 /* Pods-GGJCategoryKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GGJCategoryKit_Example-resources.sh"; sourceTree = "<group>"; };
+		D7627A85F16AA8B6D02C9EA6E2C77C1F /* GGJCategoryKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = GGJCategoryKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D97545C39C4A5EE2631DD9FFECE76A40 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 		E02C64B5CF901373CAA8FDC809CD7C6B /* Pods-GGJCategoryKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GGJCategoryKit_Tests.modulemap"; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		E4C894F4293570B2258BD54C099791FC /* Pods-GGJCategoryKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GGJCategoryKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		F10CBDEE32E5F6BDECFB3D41F7DD0B03 /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		FA95BD24EB088B6A62A3D4218250BCB5 /* GGJTestView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = GGJTestView.h; sourceTree = "<group>"; };
+		FB4443865C3BD9D2B786F62D6B9F9D23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC6038BD6669D9C0B2B8CD1EFF165090 /* Pods-GGJCategoryKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GGJCategoryKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FFEB8FEC3A9EC14E5C7ECC70F226CB9E /* 1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 1.png; path = GGJCategoryKit/Assets/1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,14 +152,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		47EFB2D8F7AED6F47B05E9CEECE07531 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A4094B4BA4F93608EB95F1682EB7629 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		59FEB25D64F327B5AAC936BB11628440 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -152,11 +160,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		781C6B53C2DC7B1BB1A2A572807E67F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A011070954FD9DB938096DCBC32E32B3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2414272504E12C64CB09656D042370F2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEAB9D8A777C354AE35C791E21C23EE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53D7D1B657BCF5846FA5D63B824152F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +201,20 @@
 				3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */,
 				99E46DD4AB2256791F111C718CB0EEF8 /* SwiftSupport */,
 			);
+			name = FBSnapshotTestCase;
 			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		253CA577BF53FB60B1C15F9F145A09A5 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				FA95BD24EB088B6A62A3D4218250BCB5 /* GGJTestView.h */,
+				74479846A8775E6F8C8696EB6023553A /* GGJTestView.m */,
+				69744306589253228CF785C0E338D9BB /* NSString+GGJCategory.h */,
+				574D6685415DCBDEAB8B449F19714AEA /* NSString+GGJCategory.m */,
+			);
+			name = Categorys;
+			path = GGJCategoryKit/Classes/Categorys;
 			sourceTree = "<group>";
 		};
 		3288FCB8E15F6401DE6220AE5CA1D27B /* Support Files */ = {
@@ -195,26 +231,27 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		3EAEF440B4665C1FFEDB595EEB23C3D6 /* Support Files */ = {
+		501988CF7A0CC4674467580C65237358 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				85F6B3AD287C52BB8956167E9F60D94E /* GGJCategoryKit.modulemap */,
-				288AEE62DA34AE4E13773B6B8E20CB22 /* GGJCategoryKit.xcconfig */,
-				C244EA054EA53D0C1D3DEC8D26FE4A4C /* GGJCategoryKit-dummy.m */,
-				1CD9A3DE07EDFC5A76D23BEF2525B374 /* GGJCategoryKit-prefix.pch */,
-				47AA488E9F30346E8C062F4FFCCD2235 /* GGJCategoryKit-umbrella.h */,
-				B636386C36999949D10A55DAC240B6ED /* Info.plist */,
+				C7EF0DACE956C832E96605F07165358C /* GGJCategoryKit.modulemap */,
+				56CB292AB71C9EABD6724113B6560FC6 /* GGJCategoryKit.xcconfig */,
+				78B99D222AF589DC8A9132487D59C58A /* GGJCategoryKit-dummy.m */,
+				831F3F628856AAA09D2DE0CA071CA9B8 /* GGJCategoryKit-prefix.pch */,
+				0ECCF4839E4E7AD905F0D0AA68E0A32B /* GGJCategoryKit-umbrella.h */,
+				FB4443865C3BD9D2B786F62D6B9F9D23 /* Info.plist */,
+				57831EA67201A2E603FC715AA2231504 /* ResourceBundle-GGJCategoryKit-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/GGJCategoryKit";
 			sourceTree = "<group>";
 		};
-		657EA6F2410D8F7BA16EF802818FD882 /* Development Pods */ = {
+		73D13C5EE4823A76E0DDB898547ED698 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				F79E117F80B7F49374DBC35BE9B2B205 /* GGJCategoryKit */,
+				FFEB8FEC3A9EC14E5C7ECC70F226CB9E /* 1.png */,
 			);
-			name = "Development Pods";
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7CEF597A610A6AE14400F859156C78B7 /* Pods-GGJCategoryKit_Tests */ = {
@@ -239,10 +276,10 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				657EA6F2410D8F7BA16EF802818FD882 /* Development Pods */,
+				A7E1C39905A38151BA11A9DC018E4FAC /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				D7925EFB353239B1B7032FEFBF64874F /* Products */,
+				DCD09E6A63A7DA24E4EE03F4634E6079 /* Products */,
 				C91A93146858D2D375C32AD6B82EDB16 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -266,12 +303,20 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		A5977EB7E0F6E53A0CA7D37253036A9C /* Pod */ = {
+		A7E1C39905A38151BA11A9DC018E4FAC /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B1B173C29AC0DA7029D48327968AA36C /* GGJCategoryKit.podspec */,
-				C29E2F7912170B896D9694D4E149D13E /* LICENSE */,
-				70C17C039F79A62F9D1B17C2E121C8B2 /* README.md */,
+				D285C782D63AC433FE3463752EADB9BC /* GGJCategoryKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B7C5467DE1DCD5558C41158003A5236B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D7627A85F16AA8B6D02C9EA6E2C77C1F /* GGJCategoryKit.podspec */,
+				AE7AF53052EC6560BA0AA1C77DF4EB8D /* LICENSE */,
+				CDB4316A3234C6DF7FEBA22E9FE8A1E8 /* README.md */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
@@ -285,15 +330,17 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D7925EFB353239B1B7032FEFBF64874F /* Products */ = {
+		D285C782D63AC433FE3463752EADB9BC /* GGJCategoryKit */ = {
 			isa = PBXGroup;
 			children = (
-				84BDF71C0B6F119E2803FBC615A42710 /* FBSnapshotTestCase.framework */,
-				1082CCCD005762B80193A57D4AAC5DFD /* GGJCategoryKit.framework */,
-				2D6803AD87EEBCAB80351DC90DEE8625 /* Pods_GGJCategoryKit_Example.framework */,
-				38505C4B9A8BCBE3D32B175EEFF41104 /* Pods_GGJCategoryKit_Tests.framework */,
+				C6CD039701ECB4663948BD4BB6D00B56 /* ReplaceMe.m */,
+				253CA577BF53FB60B1C15F9F145A09A5 /* Categorys */,
+				B7C5467DE1DCD5558C41158003A5236B /* Pod */,
+				73D13C5EE4823A76E0DDB898547ED698 /* Resources */,
+				501988CF7A0CC4674467580C65237358 /* Support Files */,
 			);
-			name = Products;
+			name = GGJCategoryKit;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		D89F0746E721D7DA65003650F5303993 /* Pods-GGJCategoryKit_Example */ = {
@@ -312,6 +359,18 @@
 			);
 			name = "Pods-GGJCategoryKit_Example";
 			path = "Target Support Files/Pods-GGJCategoryKit_Example";
+			sourceTree = "<group>";
+		};
+		DCD09E6A63A7DA24E4EE03F4634E6079 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C6A4BE4B03BBFDB7B259EDEE57FAB99 /* FBSnapshotTestCase.framework */,
+				508A8F3E8A348002ACDFEA4B169CE3D3 /* GGJCategoryKit.bundle */,
+				467986DA90ED28BEC4B8541572E46ECC /* GGJCategoryKit.framework */,
+				015525F2B7525F99412F045B680D8275 /* Pods_GGJCategoryKit_Example.framework */,
+				920A2F05A5F8985D147DB6B5FD290092 /* Pods_GGJCategoryKit_Tests.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		F35791481CAFDD8E7715AE1B44687328 /* Core */ = {
@@ -333,28 +392,6 @@
 				3DBFBDCC891B770A2AC9EF0FB164B751 /* UIImage+Snapshot.m */,
 			);
 			name = Core;
-			sourceTree = "<group>";
-		};
-		F79E117F80B7F49374DBC35BE9B2B205 /* GGJCategoryKit */ = {
-			isa = PBXGroup;
-			children = (
-				236D7410A34E42EB194FFE06F48CFA0D /* ReplaceMe.m */,
-				F9B0600ABFD111ED1A3B6AAC9BB17EC0 /* Categorys */,
-				A5977EB7E0F6E53A0CA7D37253036A9C /* Pod */,
-				3EAEF440B4665C1FFEDB595EEB23C3D6 /* Support Files */,
-			);
-			name = GGJCategoryKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		F9B0600ABFD111ED1A3B6AAC9BB17EC0 /* Categorys */ = {
-			isa = PBXGroup;
-			children = (
-				5A7175245436EA6AFE1C79E113D4DF70 /* NSString+GGJCategory.h */,
-				863AC920F3E035BE4D48195AC5EEB977 /* NSString+GGJCategory.m */,
-			);
-			name = Categorys;
-			path = GGJCategoryKit/Classes/Categorys;
 			sourceTree = "<group>";
 		};
 		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
@@ -399,12 +436,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FCC793A893057E4A10AF8FCD7AB71114 /* Headers */ = {
+		A2F320BEBAE7A5A8DEAF41F79BD6776F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42336E28C76A51529CE8C1EA37418672 /* GGJCategoryKit-umbrella.h in Headers */,
-				B7CC29600575251CFBCFE4D997BCC0E4 /* NSString+GGJCategory.h in Headers */,
+				14B113252A3EFA16A8CAEFFF581689C9 /* GGJCategoryKit-umbrella.h in Headers */,
+				770C754A9398EA07EC1FBD6B2B90BFD1 /* GGJTestView.h in Headers */,
+				CC4131A350EB54BFD330E261628F45A3 /* NSString+GGJCategory.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,7 +464,7 @@
 			);
 			name = "Pods-GGJCategoryKit_Tests";
 			productName = "Pods-GGJCategoryKit_Tests";
-			productReference = 38505C4B9A8BCBE3D32B175EEFF41104 /* Pods_GGJCategoryKit_Tests.framework */;
+			productReference = 920A2F05A5F8985D147DB6B5FD290092 /* Pods_GGJCategoryKit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */ = {
@@ -443,7 +481,26 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = 84BDF71C0B6F119E2803FBC615A42710 /* FBSnapshotTestCase.framework */;
+			productReference = 0C6A4BE4B03BBFDB7B259EDEE57FAB99 /* FBSnapshotTestCase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		48E377E5B14AEA6A580FF0510052E385 /* GGJCategoryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C6DE406176C684F76AE6E115F7BE9C23 /* Build configuration list for PBXNativeTarget "GGJCategoryKit" */;
+			buildPhases = (
+				225BF3C68C273FEE71B3828DC241A3D7 /* Sources */,
+				BEAB9D8A777C354AE35C791E21C23EE9 /* Frameworks */,
+				F87AD0D8062993AF09185FDB2C78B95B /* Resources */,
+				A2F320BEBAE7A5A8DEAF41F79BD6776F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80893C3970208C40DF87C3A677BE4872 /* PBXTargetDependency */,
+			);
+			name = GGJCategoryKit;
+			productName = GGJCategoryKit;
+			productReference = 467986DA90ED28BEC4B8541572E46ECC /* GGJCategoryKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6EBEE5D8AB12D0E25A823182FC245402 /* Pods-GGJCategoryKit_Example */ = {
@@ -461,25 +518,25 @@
 			);
 			name = "Pods-GGJCategoryKit_Example";
 			productName = "Pods-GGJCategoryKit_Example";
-			productReference = 2D6803AD87EEBCAB80351DC90DEE8625 /* Pods_GGJCategoryKit_Example.framework */;
+			productReference = 015525F2B7525F99412F045B680D8275 /* Pods_GGJCategoryKit_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		965930771C19289ADD6C6AEAC69B82A8 /* GGJCategoryKit */ = {
+		AA3C3AC313DBFADF7A9DAFD8BDA7E131 /* GGJCategoryKit-GGJCategoryKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 75185A0860CE791192DEE6AA49EE0954 /* Build configuration list for PBXNativeTarget "GGJCategoryKit" */;
+			buildConfigurationList = 0FA436154EA608D89F35BE6B7799695A /* Build configuration list for PBXNativeTarget "GGJCategoryKit-GGJCategoryKit" */;
 			buildPhases = (
-				73F2BA32B3965E7CFD50D14B20A9F679 /* Sources */,
-				47EFB2D8F7AED6F47B05E9CEECE07531 /* Frameworks */,
-				FCC793A893057E4A10AF8FCD7AB71114 /* Headers */,
+				93E4E1A751ED28CE0D8C684E0601235D /* Sources */,
+				781C6B53C2DC7B1BB1A2A572807E67F1 /* Frameworks */,
+				35101764D6F6ED6654FA9BDD29F29B44 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = GGJCategoryKit;
-			productName = GGJCategoryKit;
-			productReference = 1082CCCD005762B80193A57D4AAC5DFD /* GGJCategoryKit.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "GGJCategoryKit-GGJCategoryKit";
+			productName = "GGJCategoryKit-GGJCategoryKit";
+			productReference = 508A8F3E8A348002ACDFEA4B169CE3D3 /* GGJCategoryKit.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -498,19 +555,50 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D7925EFB353239B1B7032FEFBF64874F /* Products */;
+			productRefGroup = DCD09E6A63A7DA24E4EE03F4634E6079 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				34CD2E3428AB802BACA62286FF5074B1 /* FBSnapshotTestCase */,
-				965930771C19289ADD6C6AEAC69B82A8 /* GGJCategoryKit */,
+				48E377E5B14AEA6A580FF0510052E385 /* GGJCategoryKit */,
+				AA3C3AC313DBFADF7A9DAFD8BDA7E131 /* GGJCategoryKit-GGJCategoryKit */,
 				6EBEE5D8AB12D0E25A823182FC245402 /* Pods-GGJCategoryKit_Example */,
 				315B7EA60E5379FA224DBECE25D74F9E /* Pods-GGJCategoryKit_Tests */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		35101764D6F6ED6654FA9BDD29F29B44 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3511933D9AC38567438F41A4419ECC5 /* 1.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F87AD0D8062993AF09185FDB2C78B95B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7788B8AABC9F385D225CBBFF9755ECC7 /* GGJCategoryKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		225BF3C68C273FEE71B3828DC241A3D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411829506AE710396EE897EFA69566D2 /* GGJCategoryKit-dummy.m in Sources */,
+				A2EF4F13673D4306DCB1C7F52E6F8904 /* GGJTestView.m in Sources */,
+				7BD4DBAB58FBAFCE44D6CFA6EA053235 /* NSString+GGJCategory.m in Sources */,
+				F68F7E4FA677878057D5B8DE741FE2DB /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5097D6C459D17B5EA47C821457029F9C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -519,21 +607,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		73F2BA32B3965E7CFD50D14B20A9F679 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AB1F5CC8499228620FCF11DDE7FA1C00 /* GGJCategoryKit-dummy.m in Sources */,
-				226395ACFC051D19C0F090E09FB10BC7 /* NSString+GGJCategory.m in Sources */,
-				E78C2C0CEFC91B88EB05E1BEB5BBF614 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		938D706B69743631714011C8E279F3E6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				4F59A3095A587A4B5A274FCB7F86EC52 /* Pods-GGJCategoryKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93E4E1A751ED28CE0D8C684E0601235D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,8 +644,14 @@
 		40BB7C9F57F77C84206285D4ECC0043F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GGJCategoryKit;
-			target = 965930771C19289ADD6C6AEAC69B82A8 /* GGJCategoryKit */;
+			target = 48E377E5B14AEA6A580FF0510052E385 /* GGJCategoryKit */;
 			targetProxy = 40A487687D8FA2C9078315C30E63E53D /* PBXContainerItemProxy */;
+		};
+		80893C3970208C40DF87C3A677BE4872 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GGJCategoryKit-GGJCategoryKit";
+			target = AA3C3AC313DBFADF7A9DAFD8BDA7E131 /* GGJCategoryKit-GGJCategoryKit */;
+			targetProxy = C09B6DDBFA369A5A687BBE10C5B4FCC4 /* PBXContainerItemProxy */;
 		};
 		9DED71467533EEA24068B269A8A305E5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -571,9 +662,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		287AE9FCB65DF77DF2DDAB5D1B4A12D6 /* Release */ = {
+		1320DA9D4CDB250081F2F6E64ACDAB67 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 288AEE62DA34AE4E13773B6B8E20CB22 /* GGJCategoryKit.xcconfig */;
+			baseConfigurationReference = 56CB292AB71C9EABD6724113B6560FC6 /* GGJCategoryKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -788,6 +879,22 @@
 			};
 			name = Release;
 		};
+		8BAE53AF3DAA30DB0F4113F8350E431A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56CB292AB71C9EABD6724113B6560FC6 /* GGJCategoryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GGJCategoryKit";
+				INFOPLIST_FILE = "Target Support Files/GGJCategoryKit/ResourceBundle-GGJCategoryKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GGJCategoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
 		B2E52370F534DFE0FF7634F754F4F618 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7B37D7C695D5C6C47A7C093595CD4F06 /* FBSnapshotTestCase.xcconfig */;
@@ -819,6 +926,35 @@
 			};
 			name = Release;
 		};
+		C2A3F0D995A1DFCF748C49068F2DD8AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56CB292AB71C9EABD6724113B6560FC6 /* GGJCategoryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GGJCategoryKit/GGJCategoryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GGJCategoryKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GGJCategoryKit/GGJCategoryKit.modulemap";
+				PRODUCT_NAME = GGJCategoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		CAC40AC8223B4F84C04B2D21298674C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 86D22A6C4FE6774E78A25FDE3C806141 /* Pods-GGJCategoryKit_Tests.debug.xcconfig */;
@@ -847,35 +983,6 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CD1F590FDADB4403E393694AEDE12666 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 288AEE62DA34AE4E13773B6B8E20CB22 /* GGJCategoryKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GGJCategoryKit/GGJCategoryKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GGJCategoryKit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GGJCategoryKit/GGJCategoryKit.modulemap";
-				PRODUCT_NAME = GGJCategoryKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -945,9 +1052,34 @@
 			};
 			name = Release;
 		};
+		FF7B46EE060819D12810DBAFAC535433 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56CB292AB71C9EABD6724113B6560FC6 /* GGJCategoryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GGJCategoryKit";
+				INFOPLIST_FILE = "Target Support Files/GGJCategoryKit/ResourceBundle-GGJCategoryKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GGJCategoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0FA436154EA608D89F35BE6B7799695A /* Build configuration list for PBXNativeTarget "GGJCategoryKit-GGJCategoryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BAE53AF3DAA30DB0F4113F8350E431A /* Debug */,
+				FF7B46EE060819D12810DBAFAC535433 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		11AEAB2BF77D6C6EE5487461176BDF07 /* Build configuration list for PBXNativeTarget "Pods-GGJCategoryKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -975,11 +1107,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		75185A0860CE791192DEE6AA49EE0954 /* Build configuration list for PBXNativeTarget "GGJCategoryKit" */ = {
+		C6DE406176C684F76AE6E115F7BE9C23 /* Build configuration list for PBXNativeTarget "GGJCategoryKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CD1F590FDADB4403E393694AEDE12666 /* Debug */,
-				287AE9FCB65DF77DF2DDAB5D1B4A12D6 /* Release */,
+				C2A3F0D995A1DFCF748C49068F2DD8AE /* Debug */,
+				1320DA9D4CDB250081F2F6E64ACDAB67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "GGJTestView.h"
 #import "NSString+GGJCategory.h"
 
 FOUNDATION_EXPORT double GGJCategoryKitVersionNumber;
