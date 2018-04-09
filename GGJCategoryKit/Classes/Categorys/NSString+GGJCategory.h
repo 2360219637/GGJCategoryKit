@@ -21,5 +21,6 @@
  git add .
  git commit -m '描述信息'
  git push origin master
+//注意：在执行下面命令之前，确保远端仓库已经创建了对应的版本，否则报错
  pod repo push GGJSpecs GGJCategoryKit.podspec  //发布版本，否则主工程中还是用的老版本
  */
