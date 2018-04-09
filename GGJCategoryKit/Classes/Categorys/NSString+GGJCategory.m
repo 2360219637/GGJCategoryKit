@@ -9,5 +9,7 @@
 #import "NSString+GGJCategory.h"
 
 @implementation NSString (GGJCategory)
-
+- (void)testMethod{
+    NSLog(@"哈哈");
+}
 @end
