@@ -15,4 +15,7 @@
 - (void)testMethod2{
     NSLog(@"😝");
 }
+- (void)testMethod3{
+    NSLog(@"😁3");
+}
 @end
