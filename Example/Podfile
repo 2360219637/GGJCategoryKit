@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GGJCategoryKit_Example' do
+  pod 'GGJCategoryKit', :path => '../'
+
+  target 'GGJCategoryKit_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
