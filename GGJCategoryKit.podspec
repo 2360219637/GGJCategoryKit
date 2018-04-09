@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'GGJCategoryKit'
-  s.version          = '1'
+  s.version          = '2'
   s.summary          = '这是一个分类组件'
   s.description      = <<-DESC
 TODO: 组件化中的分类组件

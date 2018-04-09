@@ -10,4 +10,5 @@
 
 @interface NSString (GGJCategory)
 - (void)testMethod;
+- (void)testMethod2;
 @end

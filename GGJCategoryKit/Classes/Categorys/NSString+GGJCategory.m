@@ -12,4 +12,7 @@
 - (void)testMethod{
     NSLog(@"哈哈");
 }
+- (void)testMethod2{
+    NSLog(@"😝");
+}
 @end
